@@ -87,42 +87,12 @@ public class SortingPanel extends JPanel{
 	private void selectionSort() {
 		int minIndex = 0;
 
-		for(int i = 0; i < numbers.length; i++) {
-			for(int j = i; j < numbers.length; j++) {
-				comparisons++;								// update the comparisons counter. 
-				compareIndex1 = minIndex;					// update the two compare indexes so that the numbers that
-				compareIndex2 = j;							// are currently being compared are highlighted.
-				this.paintImmediately(getVisibleRect());	// repaint the panel. Your code should repaint the panel after each
-															// comparison and swap.
-				if(numbers[j] < numbers[minIndex]) {
-					minIndex = j;
-				}	
-			}
 
-			if(minIndex != i)
-				swap(minIndex, i);
-			
-			minIndex = i + 1;
-		}
 
 	}
 
 	private void insertionSort() {
-		for(int i = 1; i < numbers.length; i++) {
-			int value = numbers[i];
-			int j = i;
-			
-			compareIndex1 = i+1;
-			while( j > 0 && numbers[j-1] > value) {
-				comparisons++;
-				compareIndex2 = j;
-				numbers[j] = numbers[j-1];
-				this.paintImmediately(getVisibleRect());
-				j--;
-			}
-			
-			numbers[j] = value;
-		}
+
 	}
 	
 	// method: BubbleSort
