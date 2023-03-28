@@ -85,7 +85,7 @@ public class SortingPanel extends JPanel{
 	}
 
 	private void selectionSort() {
-		int minIndex = 0;
+		
 
 
 
