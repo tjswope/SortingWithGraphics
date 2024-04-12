@@ -35,11 +35,12 @@ You’re now set up to start the project. All steps are illustrated below:
 
 Click on SortingMainGraphics and click run. Your project will look like the following:
 
+
 ![five](https://github.com/tjswope/SortingWithGraphics/assets/35576679/7de59b46-6539-40c5-8f0c-1b91d2279cc9)
 
 
 Editing the Project:
 
-You will not need to edit SortingMainGraphics. All of your work will be done in the SortingPanel class. I've included a walkthrough of the code below:
+You will not need to edit SortingMainGraphics. All of your work will be done in the SortingPanel class. A walkthrough video of the code can be found by clicking on the image below:
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/0Gg4Xja1Fbw/0.jpg)](https://www.youtube.com/watch?v=0Gg4Xja1Fbw)
+[![Set-up video](https://img.youtube.com/vi/0Gg4Xja1Fbw/0.jpg)](https://www.youtube.com/watch?v=0Gg4Xja1Fbw)
